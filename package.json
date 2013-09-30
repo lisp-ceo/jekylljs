@@ -1,0 +1,39 @@
+{
+  "name": "jekylljs",
+  "description": "JavaScript jekyll port",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jrm/jekylljs",
+  "author": {
+    "name": "James Meldrum",
+    "email": "jrm.general@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrm/jekylljs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jrm/jekylljs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jrm/jekylljs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/jekylljs",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.1.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-es6-module-transpiler": "~0.4.1",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
