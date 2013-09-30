@@ -1,6 +1,6 @@
 # jekylljs
 
-JavaScript jekyll port
+JavaScript jekyll port. Supports the latest syntax.
 
 ## Getting Started
 Install the module with: `npm install -g jekylljs`
